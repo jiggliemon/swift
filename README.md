@@ -6,12 +6,12 @@ OpenStack Object Storage(Swift) REST client API for Node.JS
 
 GIT
 
-    $ git clone git://github.com/firejune/swift.git
+    $ git clone git://github.com/jiggliemon/swift.git
 
 NPM
 
     $ npm install swift
-    
+
 ### Code
 ```javascript
     var Swift = require('swift');
@@ -31,7 +31,7 @@ NPM
     // Authentication
     swift.listContainers(handlerFunction);
     swift.retrieveAccountMetadata(handlerFunction);
-    
+
     // Storage Services
     swift.listObjects(containerName, handlerFunction);
     swift.createContainer(containerName, handlerFunction);
@@ -46,7 +46,7 @@ NPM
     swift.deleteObject(containerName, objectName, handlerFunction);
     swift.retrieveObjectMetadata(containerName, objectName, handlerFunction);
     swift.updateObjectMetadata(containerName, objectName, handlerFunction);
-    
+
     // Get Object Binary
     swift.getFile(containerName, objectName, responseObject);
 ```

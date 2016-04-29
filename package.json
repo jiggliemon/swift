@@ -1,9 +1,9 @@
 {
-  "name": "swift-storage",
-  "author": "Firejune (http://firejune.com/)",
+  "name": "opc-storage",
+  "author": "Chase Wilson",
   "version": "0.1.8",
-  "description": "OpenStack Object Storage(Swift) REST client API for Node.JS",
-  "homepage": "http://github.com/firejune/swift",
+  "description": "Oracle Public Cloud Storage REST client API for Node.JS",
+  "homepage": "http://github.com/jiggliemon/swift",
   "keywords": [
     "Swift Storage",
     "OpenStack",

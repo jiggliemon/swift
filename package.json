@@ -1,10 +1,10 @@
 {
-  "name": "swift",
+  "name": "swift-storage",
   "author": "Firejune (http://firejune.com/)",
   "version": "0.1.8",
   "description": "OpenStack Object Storage(Swift) REST client API for Node.JS",
   "homepage": "http://github.com/firejune/swift",
-  "keywords": ["Swift", "OpenStack", "Object Storage"],
+  "keywords": ["Swift Storage", "OpenStack", "Object Storage"],
   "main": "lib/swift",
   "directories": {
     "lib": "lib"
@@ -15,14 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/firejune/swift.git"
+    "url": "git://github.com/jiggliemon/swift.git"
   },
   "licenses": [{
     "type": "MIT",
-    "url": "http://firejune.mit-license.org/"
   }],
   "bugs" : {
-    "url" : "http://github.com/firejune/swift/issues"
+    "url" : "http://github.com/jiggliemon/swift/issues"
   },
   "engines": {
     "node": ">= 0.4.0"
